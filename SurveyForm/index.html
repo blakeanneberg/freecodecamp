@@ -1,0 +1,57 @@
+HTML document   <html>
+<head>
+<meta charset="utf-8">
+<h1 id="title">Survey what is the best park?</h1>
+</head>
+<body>
+<p id="description">Let us know what park you like the most</p>
+
+<div>
+<form action="survey.php" method="post" id="survey-form">
+<label for="name" id="name-label">What is your name?</label>
+<input type="text" id="name" placeholder="Your name." required>
+<label id="email-label" for="email">What is your email?</label>
+<input type="email" id="email"  placeholder="Your email." required>
+<label id="number-label" for"number" >How many parks would you like to run to?</label>
+<input type="number" id="number" value="number" min="1" max="3" placeholder="your choice"  required>
+<label id="dropdown">What is your favorite park?</p>
+<select name="park">
+<option value="1">Cheesman</option>
+<option value="2">Wash</option>
+<option value="3">Cramner</option>
+<input type="radio" id="html" name="fav_transport" value="run">
+<label for="html">Run</label><br>
+<input type="radio" id="bike" name="fav_transport" value="bike">
+<label for="css">Bike</label><br>
+
+<p>What do you like to do after?</p>
+
+<div>
+  <input type="checkbox" id="coffee" name="coffee" value="coffee">
+  <label for="coffee">Get coffee at Aviano or Starbucks</label>
+</div>
+
+<div>
+  <input type="checkbox" id="sleep" name="sleep" value="sleep">
+  <label for="sleep">Take a nap and sleep!</label>
+</div>
+
+<div>
+    <input type="checkbox" id="eat" name="eat" value="eat">
+  <label for="eat">Eat watermellon!</label>
+</div>
+<p>What else is fun about the parks?</p>
+<textarea name="comments" rows="5" cols="40" placeholder="Comments"></textarea>
+<button type="submit" id="submit">Submit</button>
+</div>
+
+
+
+</form>
+
+  <script src="index.js"></script> 
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+</html>
