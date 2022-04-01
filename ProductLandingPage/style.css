@@ -10,7 +10,7 @@ li {
   float: left;
 }
 ul  {
-  display: block;
+  display: grid;
 }
 
 li a {
