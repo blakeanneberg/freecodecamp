@@ -9,9 +9,6 @@ nav ul {
 li {
   float: left;
 }
-ul  {
-  display: grid;
-}
 
 li a {
   display: block;
