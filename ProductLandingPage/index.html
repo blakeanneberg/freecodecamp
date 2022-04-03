@@ -5,13 +5,24 @@
 
     <header id="header">
         <img src="Images/ModernArt.png" alt="Modern Art Logo" id="header-img" >
+        <!-- Load font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <nav class="menu" id="nav-bar">
             <ul>
                 <li><a href="https://blakeanneberg.github.io/freecodecamp/" id="nav-link">Home</a></li>
                 <li><a href="https://blakeanneberg.github.io/freecodecamp/TributePage" id="nav-link">TributePage</a></li>
                 <li><a href="https://blakeanneberg.github.io/freecodecamp/ProductLandingPage" class="active" id="nav-link">ProductLandingPage</a></li>
-                <li><a href="https://blakeanneberg.github.io/freecodecamp/Projects" id="nav-link">Projects</a></li>
-                <li><a href="https://blakeanneberg.github.io/freecodecamp/SurveyForm/">Survey Form</a></li>
+                <div class="subnav">
+                    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="#link1">Link 1</a>
+                        <a href="#link2">Link 2</a>
+                        <a href="#link3">Link 3</a>
+                        <a href="#link4">Link 4</a>
+                    </div>
+                    <li><a href="https://blakeanneberg.github.io/freecodecamp/Projects" id="nav-link">Projects</a></li>
+                    <li><a href="https://blakeanneberg.github.io/freecodecamp/SurveyForm/">Survey Form</a></li>
             </ul>
         </nav>
         <link rel="stylesheet" href="style.css">
@@ -34,7 +45,7 @@
             <div class="column">
                 <div class="card">
                     <h3>Video</h3>
-                    <iframe width="100%" height="33%" src="https://www.youtube.com/embed/qF7W-M0uf5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="33%" id="video" src="https://www.youtube.com/embed/qF7W-M0uf5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p>Video can include many different types of art.</p>
                 </div>
             </div>
